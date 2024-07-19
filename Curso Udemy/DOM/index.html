@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/DOM/script.js" defer></script>
+    <link rel="stylesheet" href="/DOM/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Titulo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-container">
+        <div class="product">
+            <h2>produto 1</h2>
+            <p>descrição</p>
+        </div>
+        <div class="product">
+            <h2>produto 2</h2>
+            <p>descrição</p>
+        </div>
+
+        <div class="loopa">
+            <input type="text" placeholder="Pesquise">
+            <button>🔍</button>
+        </div>
+        <p id="text"></p>
+        <button onclick="adicionarTexto()">Adicionar o novo texto</button>
+        <button onclick="removerTexto()">remover o  texto</button>
+
+    </main>
+    <footer>
+        <p>rodape</p>
+    </footer>
+</body>
+</html>
